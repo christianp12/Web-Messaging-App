@@ -1,0 +1,341 @@
+.App {
+  text-align: center;
+}
+
+.profile {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 75%;
+  height: 90%;
+  display: flex;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+}
+
+.profile .fullName {
+  padding: 20px 20px 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile .email {
+  font-size: 17px;
+  padding-top: 26px;
+}
+
+.formContainer {
+  background-color: cornflowerblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formWrapper {
+  background-color: white;
+  padding: 20px 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.title {
+  color: black;
+  font-size: 24px;
+}
+
+.formWrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formWrapper input {
+  padding: 15px;
+  border: none;
+  width: 270px;
+  border-bottom: 1px solid coral;
+  font-size: 14px;
+}
+
+.formWrapper button {
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.formWrapper p{
+  text-align: center;
+}
+
+.home {
+  background-color: cornflowerblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 75%;
+  height: 90%;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: white;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: navy;
+  height: 50px;
+  padding: 10px;
+  color: #ddddf7;
+  justify-content: space-between;
+}
+
+.user {
+  display: flex;
+  gap: 10px;
+}
+
+.user span{
+  padding-left: 12px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.user button {
+  border: none;
+  background-color: coral;
+  color: floralwhite;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 30px;
+}
+
+.searchForm {
+  padding: 20px;
+}
+
+.searchForm input {
+  border: none;
+  width: 98%;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+}
+
+.userChat {
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+  border-top: 1px solid navy;
+  border-bottom: 1px solid navy;
+  border-radius: 5px;
+}
+
+.userChat:hover {
+  background-color: coral;
+}
+
+.userChatInfo span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.userInfo p{
+  font-size: 13px;
+  color: white;
+}
+
+.chat {
+  flex: 2;
+  background-color: beige;
+}
+
+.chatInfo {
+  height: 50px;
+  background-color: floralwhite;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.addFriend{
+  padding: 10px;
+  background-color: lightseagreen;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.addFriend img{
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.addFriend button{
+  border: none;
+  background-color: lightseagreen;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile .updateButton {
+  border: none;
+  background-color: coral;
+  color: floralwhite;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 30px;
+  position: relative;
+  right: 310px;
+  top: 10%;
+
+}
+.profile .acceptButton {
+  border: none;
+  background-color: #0f7c11;
+  color: floralwhite;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 30px;
+}
+
+.profile .rejectButton {
+  border: none;
+  background-color: #dc1919;
+  color: floralwhite;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 30px;
+}
+
+.profile .goBackButton {
+  border: none;
+  background-color: coral;
+  color: floralwhite;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 30px;
+  position: relative;
+  left: 5px;
+  top: 93%;
+}
+
+.messages {
+  background-color: beige;
+  padding: 10px;
+  height: calc(100% - 140px);
+  overflow: scroll;
+}
+
+.message {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.messageInfo{
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  padding-top: 18px;
+  font-size: 12px;
+}
+
+.messageContent{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0px 10px 10px 10px;
+  background-color: lightgreen;
+}
+
+.message.owner {
+  flex-direction: row-reverse;
+}
+
+.messageContent.owner {
+  background-color: white;
+  border-radius: 10px 0px 10px 10px;
+}
+
+.input {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.input input {
+  width: 100%;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  padding: 10px 10px;
+}
+
+.send{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.send button{
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.later {
+  font-family: serif;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  line-height: 35px;
+  font-size: 40px;
+  color: #ffffff;
+  display: block;
+  background-color: gold;
+  border-radius: 100px;
+  padding: 20px;
+}
